@@ -16,6 +16,7 @@
 			<link rel="stylesheet" type="text/css" href="assets/css/style_index.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/style_activitees.css"/>
 			<link rel="stylesheet" type="text/css" href="assets/css/style_location.css"/>
+			<link rel="stylesheet" type="text/css" href="assets/css/global.css"/>
 
 		</head>
 		<body>

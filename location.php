@@ -1,6 +1,7 @@
 
 <?php include 'includes/header.php'; ?>
 <div id="location">
+
 	<?php include 'includes/nav.php'; ?>
 
 <!-- Bureau version -->
@@ -63,6 +64,7 @@
 			Découvrez Fontainebleau et sa forêt sur le site de l'office de tourisme de Fontainebleau : www.fontainebleau-tourisme.com</p>
 		</div>	
 	</section>
-</div>
+
 
 <?php include 'includes/footer_loc.php'; ?>
+</div>

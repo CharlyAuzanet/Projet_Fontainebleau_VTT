@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div id="c_desktop" class="row">
 			<div class="col-xs-3">
-				<img src="img/VTT.png" id="c_logo" alt="logo" class=img-responsive >
+				<img src="assets/img/VTT.png" id="c_logo" alt="logo" class=img-responsive >
 			</div>
 			<div class="col-xs-offset-1 col-xs-4">
 				<nav>
@@ -33,7 +33,7 @@
 		</div>
 		<!-- Mobile version -->
 		<div id="c_mobile">
-			<img src="img/VTT.png" id="c_logomobile" alt="logo" class=img-responsive>
+			<img src="assets/img/VTT.png" id="c_logomobile" alt="logo" class=img-responsive>
 			<div id="c_météo_mobile">
 				<script  charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'>
 				</script>
