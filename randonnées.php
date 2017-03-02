@@ -1,43 +1,21 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="initial-scale=1">
+<?php include 'includes/header.php'; ?>
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- Call CSS -->
-
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
-        <link rel="stylesheet" type="text/css" href="css/style_pages.css">
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-        <title>Rando Vtt</title>
-    </head> 
-
-    <div id="page_randos">
-        <body>
-
+    <div class="activites_style">
+        <?php include 'includes/nav.php';?>
             <div class="container-fluid">
-                <?php include 'header.php';
-                ?>
-
+            <div class="row">
                 <div class="title">
-
-                    <marquee direction="left" behavior="scroll" scrollamount="6" > Parcours Randonnées en Vtt au sein du Domaine Forestier de fonatainebleau.</marquee>
+                    <marquee direction="left" behavior="scroll" scrollamount="6" > Parcours Randonnées en Vtt au sein du Domaine Forestier de Fontainebleau.</marquee>
                 </div>
-
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-offset-1 col-lg-10 box">
-                            <div class="img">
-                                <img width="100px" height="100px" src="img/fontainebleau.jpg" alt="fontainebleau">  
-                            </div>   
-                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT.pdf" alt="link" target="_blank">
-                                <h4>Le Massif Forestier en 3 Circuits VTT</h4></a>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 box">
+                    <div class="img">
+                        <img width="100px" height="100px" src="assets/img/fontainebleau.jpg" alt="fontainebleau">  
+                    </div>   
+                    <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT.pdf" alt="link" target="_blank">
+                    <h4>Le Massif Forestier en 3 Circuits VTT</h4></a>
 
                             <p><span>3 Circuits Vtt au départ de Fontainebleau</span><br/>
                                 <span> 3 Parcours (38 kms - 48 Kms - 50 Kms)</span></p>
@@ -128,7 +106,7 @@
                     <div class="row">
                         <div class="col-lg-offset-1 col-lg-4 box">   
                             <div class="img"> 
-                                <img width="100px" height="100px" src="img/1.jpg" alt="foret">
+                                <img width="100px" height="100px" src="assets/img/1.jpg" alt="foret">
                             </div>     
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Petit_Barbeau.jpg" alt="link" target="_blank">
                                 <h4>Circuit VTT du Petit Barbeau</h4></a>
@@ -216,7 +194,7 @@
 
                         <div class="col-lg-offset-2 col-lg-4 box">   
                             <div class="img">
-                                <img width="100px"  height="100px" src="img/2.jpg" alt="foret">
+                                <img width="100px"  height="100px" src="assets/img/2.jpg" alt="foret">
                             </div>  
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_des_Grands_Feuillards.jpg" alt="link" target="_blank"><h4>Circuit VTT des Grands Feuillards</h4></a>
                             <p><span>Circuit Vtt dans le domaine des Grands Feuillards</span><br/>
@@ -304,7 +282,7 @@
                     <div class="row">
                         <div class="col-lg-offset-1 col-lg-4 box">
                             <div class="img">
-                                <img width="100px" height="100px" src="img/3.JPG" alt="foret">
+                                <img width="100px" height="100px" src="assets/img/3.JPG" alt="foret">
                             </div>  
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Mont_Aigu.jpg" alt="link" target="_blank"><h4>Circuit VTT du Mont Aigu</h4></a>
                             <p><span>Circuit Vtt à la découverte du Mont Aigu.</span><br/>
@@ -390,7 +368,7 @@
 
                         <div class="col-lg-offset-2 col-lg-4 box">
                             <div class="img">
-                                <img width="100px" height="100px" src="img/pv_fleau.jpg" alt="points de vues">             
+                                <img width="100px" height="100px" src="assets/img/pv_fleau.jpg" alt="points de vues">             
                             </div>       
                             <a href="http://2.bp.blogspot.com/-w2h9N1Rc0pU/Vf7NRH3NZsI/AAAAAAAACeI/ycnPvy9W2aw/s1600/2.jpg" alt="link"><h4>Promenade des Points de Vue</h4></a>
 
@@ -478,13 +456,4 @@
                     </div>
                 </div>
 
-                <script
-                        src="https://code.jquery.com/jquery-3.1.1.slim.js"
-                        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
-                        crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
-
-                </body>
-            </div>
-        <footer></footer>
-        </html>
+<?php include 'includes/footer.php'; ?>

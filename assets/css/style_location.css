@@ -10,7 +10,7 @@ body {
 
 }
 
-.collaspe {
+#location .collaspe {
 	font-size: 1em;
 }
 
@@ -19,12 +19,12 @@ a {
 }
 
 
-#c_navbar {
+#location #c_navbar {
 
 	background: rgba(0, 0, 0, 0.8);
 }
 
-#c_navbar li {
+#location #c_navbar li {
 
 	list-style: none;
 	display: inline;
@@ -35,7 +35,7 @@ a {
 
 }
 
-#c_navbar ul{
+#location #c_navbar ul{
 
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -45,14 +45,14 @@ a {
 
 }
 
-#c_météo {
+#location #c_météo {
 
 	margin-top: 90px;
 }
 
 
 
-#c_tarif-container {
+#location #c_tarif-container {
 
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -62,23 +62,22 @@ a {
 	color: white;
 }
 
-#c_infoloc {
+#location #c_infoloc {
 
 	text-align: justify;
 	margin-top: 20px;
 }
-
-ul {
+#location ul {
 
 	list-style-type: none;
 }
 
-h3 {
+#location h3 {
 
 	Font-Weight: Bold;
 }
 
-#c_liencontainer {
+#location #c_liencontainer {
 
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -87,86 +86,70 @@ h3 {
 
 
 
-#c_lien {
+#location #c_lien {
 
 	text-align: center;
 	margin: 10px;
 }
 
 
-#c_img3 {
+#location #c_img3 {
 
 	margin-top: 50px;
 
 }
 
-#c_copyright {
+#location #c_copyright {
 
 	padding: 30px;
 }
-#c_copyright p {
+#location #c_copyright p {
 
 	text-align: center;
 	color : black;
 }
 
-input {
+#location input {
 
 	color: black;
 }
 
-textarea {
+#location textarea {
 
 	border-radius: 5px;
 }
-
-#c_mobile {
-
-	display: none;
-}
-#c_tarif_mobile {
-	display: none;
-}
-#c_footer_mobile {
-	display: none;
-}
-#c_copyright_m{
-	display: none;
-}
-
 
 
 /*Mobile version*/
 @media screen and (max-width: 768px) {
 
 
-	#c_desktop  {
+	#location #c_desktop  {
 
 		display: none;
 	}
 
-	#c_tarif {
+	#location #c_tarif {
 
 		display: none;
 	}
 
-	#footer_desktop {
+	#location #footer_desktop {
 
 		display: none;
 	}
 
 
-	#c_mobile {
+	#location #c_mobile {
 
 		display: block;
 	}
 	
-	#c_météo_mobile {
+	#location #c_météo_mobile {
 
 		text-align: center;
 	}
-
-	#c_tarif_mobile {
+	#location #c_tarif_mobile {
 		
 		display: block;
 		border: 5px solid #99de68;
@@ -175,14 +158,14 @@ textarea {
 		margin : 10px;
 	}
 	
-	#c_tarif_mobile p {
+	#location #c_tarif_mobile p {
 
 		font-size: 0.7em;
 		text-align: justify;
 		margin: 10px;
 	}
 
-	#c_footer_mobile {
+	#location #c_footer_mobile {
 
 		display: block;
 		border: 5px solid #99de68;
@@ -192,23 +175,23 @@ textarea {
 
 	}
 
-	#c_footer_mobile h4 {
+	#location #c_footer_mobile h4 {
 		text-align: center;
 		font-size: 0.8em;
 		margin: 10px;
 	}
 	
-	#c_formualire h4 {
+	#location #c_formualire h4 {
 		text-decoration: underline;
 	}
 
-	#c_formualire {
+	#location #c_formualire {
 		margin-left: auto;
 		margin-right: auto;
 		width: 300px;
 	}
 
-	input {
+	#location input {
 		margin-bottom: 30px;
 	}
 }
@@ -216,40 +199,40 @@ textarea {
 /*Tablette portrait*/
 @media screen and (max-width: 992px) {
 
-	#c_logomobile {
+	#location #c_logomobile {
 
 		margin-right: auto;
 		margin-left: auto;
 		width : 700px;
 	}
  	
- 	#c_desktop  {
+ 	#location #c_desktop  {
 
 		display: none;
 	}
 
-	#c_tarif {
+	#location #c_tarif {
 
 		display: none;
 	}
 
-	#footer_desktop {
+	#location #footer_desktop {
 
 		display: none;
 	}
 
 
-	#c_mobile {
+	#location #c_mobile {
 
 		display: block;
 	}
 	
-	#c_météo_mobile {
+	#location #c_météo_mobile {
 
 		text-align: center;
 	}
 
-	#c_tarif_mobile {
+	#location #c_tarif_mobile {
 		
 		display: block;
 		border: 5px solid #99de68;
@@ -258,14 +241,14 @@ textarea {
 		margin : 10px;
 	}
 	
-	#c_tarif_mobile p {
+	#location #c_tarif_mobile p {
 
 		font-size: 0.7em;
 		text-align: justify;
 		margin: 10px;
 	}
 
-	#c_footer_mobile {
+	#location #c_footer_mobile {
 
 		display: block;
 		border: 5px solid #99de68;
@@ -275,13 +258,13 @@ textarea {
 
 	}
 
-	#c_footer_mobile h4 {
+	#location #c_footer_mobile h4 {
 		text-align: center;
 		font-size: 0.8em;
 		margin: 10px;
 	}
 	
-	#c_formualire h4 {
+	#location #c_formualire h4 {
 		text-decoration: underline;
 	}
 }	

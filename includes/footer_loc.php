@@ -34,5 +34,5 @@
 			</div>
 		</div>	
 	</footer>
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?>
