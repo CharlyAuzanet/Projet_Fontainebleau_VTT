@@ -1,0 +1,271 @@
+
+body {
+
+	font-size: 2em;
+	font-family: Josefin Sans;
+	color: white;
+	background: url(img/backgroundpage4.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+
+}
+
+#location .collaspe {
+	font-size: 1em;
+}
+
+a {
+	color: white;
+}
+
+
+#location #c_navbar {
+
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#location #c_navbar li {
+
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	text-align:center;
+
+
+}
+
+#location #c_navbar ul{
+
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 130px;
+	text-align: center;
+
+}
+
+#location #c_météo {
+
+	margin-top: 90px;
+}
+
+
+
+#location #c_tarif-container {
+
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	margin-bottom: 70px;
+	color: white;
+}
+
+#location #c_infoloc {
+
+	text-align: justify;
+	margin-top: 20px;
+}
+#location ul {
+
+	list-style-type: none;
+}
+
+#location h3 {
+
+	Font-Weight: Bold;
+}
+
+#location #c_liencontainer {
+
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+#location #c_lien {
+
+	text-align: center;
+	margin: 10px;
+}
+
+
+#location #c_img3 {
+
+	margin-top: 50px;
+
+}
+
+#location #c_copyright {
+
+	padding: 30px;
+}
+#location #c_copyright p {
+
+	text-align: center;
+	color : black;
+}
+
+#location input {
+
+	color: black;
+}
+
+#location textarea {
+
+	border-radius: 5px;
+}
+
+
+/*Mobile version*/
+@media screen and (max-width: 768px) {
+
+
+	#location #c_desktop  {
+
+		display: none;
+	}
+
+	#location #c_tarif {
+
+		display: none;
+	}
+
+	#location #footer_desktop {
+
+		display: none;
+	}
+
+
+	#location #c_mobile {
+
+		display: block;
+	}
+	
+	#location #c_météo_mobile {
+
+		text-align: center;
+	}
+	#location #c_tarif_mobile {
+		
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+	}
+	
+	#location #c_tarif_mobile p {
+
+		font-size: 0.7em;
+		text-align: justify;
+		margin: 10px;
+	}
+
+	#location #c_footer_mobile {
+
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+
+	}
+
+	#location #c_footer_mobile h4 {
+		text-align: center;
+		font-size: 0.8em;
+		margin: 10px;
+	}
+	
+	#location #c_formualire h4 {
+		text-decoration: underline;
+	}
+
+	#location #c_formualire {
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+	}
+
+	#location input {
+		margin-bottom: 30px;
+	}
+}
+
+/*Tablette portrait*/
+@media screen and (max-width: 992px) {
+
+	#location #c_logomobile {
+
+		margin-right: auto;
+		margin-left: auto;
+		width : 700px;
+	}
+ 	
+ 	#location #c_desktop  {
+
+		display: none;
+	}
+
+	#location #c_tarif {
+
+		display: none;
+	}
+
+	#location #footer_desktop {
+
+		display: none;
+	}
+
+
+	#location #c_mobile {
+
+		display: block;
+	}
+	
+	#location #c_météo_mobile {
+
+		text-align: center;
+	}
+
+	#location #c_tarif_mobile {
+		
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+	}
+	
+	#location #c_tarif_mobile p {
+
+		font-size: 0.7em;
+		text-align: justify;
+		margin: 10px;
+	}
+
+	#location #c_footer_mobile {
+
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+
+	}
+
+	#location #c_footer_mobile h4 {
+		text-align: center;
+		font-size: 0.8em;
+		margin: 10px;
+	}
+	
+	#location #c_formualire h4 {
+		text-decoration: underline;
+	}
+}	
+
